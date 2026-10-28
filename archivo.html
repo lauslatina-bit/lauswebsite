@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Archivo — Laus Latina</title>
+<meta name="description" content="Archivo visual de Laus Latina: instantáneas del proceso, el vestuario y la comunidad que habita este ecosistema.">
+
+<!-- Google Fonts stand-ins for the brand typefaces (see README.md to swap for the real Cabinet Grotesk / Vesper Devanagari / Juana files) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&display=swap" rel="stylesheet">
+
+<link rel="icon" href="assets/logo-mark-navy.png" type="image/png">
+<link rel="stylesheet" href="styles.css">
+<!-- If JavaScript is unavailable, skip the scroll-reveal animation and just show everything -->
+<noscript><style>.reveal { opacity: 1 !important; transform: none !important; }</style></noscript>
+</head>
+<body class="subpage">
+
+<!-- ============ SKIP LINK ============ -->
+<a class="skip-link" href="#main">Saltar al contenido</a>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="top">
+  <button type="button" class="btn btn-primary header-cta join-trigger" data-open-modal="joinModal">Escríbenos</button>
+  <div class="wrap header-inner">
+    <a href="index.html" class="brand" aria-label="Laus Latina — inicio">
+      <img src="assets/logo-lockup-navy.png" alt="Laus Latina" class="brand-lockup-img brand-lockup-light">
+      <img src="assets/logo-lockup-navy.png" alt="Laus Latina" class="brand-lockup-img brand-lockup-dark">
+    </a>
+
+    <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+      <ul>
+        <li><a href="index.html" aria-current="page">Archivo</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-content">
+    <div class="wrap">
+      <p class="section-kicker"><span>01</span> Archivo</p>
+      <h2>Archivo visual</h2>
+      <p class="lead">Un fragmento del archivo Laus Latina: instantáneas del proceso, el vestuario y la comunidad que habita este ecosistema.</p>
+      <div class="archivo-grid">
+        <img src="assets/concepto-orbit-01.jpg" alt="" loading="lazy">
+        <img src="assets/concepto-orbit-02.jpg" alt="" loading="lazy">
+        <img src="assets/concepto-orbit-03.jpg" alt="" loading="lazy">
+        <img src="assets/concepto-orbit-04.jpg" alt="" loading="lazy">
+        <img src="assets/concepto-orbit-05.jpg" alt="" loading="lazy">
+        <img src="assets/concepto-orbit-06.jpg" alt="" loading="lazy">
+        <img src="assets/concepto-orbit-07.jpg" alt="" loading="lazy">
+        <img src="assets/concepto-orbit-08.jpg" alt="" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <a href="index.html" class="brand brand-footer" aria-label="Laus Latina — inicio">
+      <img src="assets/logo-mark-navy.png" alt="Laus Latina" class="brand-mark brand-mark-sm">
+    </a>
+
+    <nav aria-label="Navegación de pie de página">
+      <ul class="footer-nav">
+        <li><a href="archivo.html">Archivo</a></li>
+      </ul>
+    </nav>
+
+    <ul class="social-links" aria-label="Redes sociales">
+      <li><a href="#" aria-label="Instagram">
+        <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+      </a></li>
+      <li><a href="#" aria-label="TikTok">
+        <svg viewBox="0 0 24 24"><path d="M14 3v10.5a3.5 3.5 0 1 1-3.5-3.5c.35 0 .69.05 1 .14V7.5A6.5 6.5 0 1 0 18 14V8.8A6 6 0 0 0 21 10V7a4 4 0 0 1-4-4h-3z"/></svg>
+      </a></li>
+      <li><a href="#" aria-label="Pinterest">
+        <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9 18c.6-2 1.5-5.6 1.5-5.6M12 12a2.7 2.7 0 1 0 2.7-3.2c-1.8 0-3 1.3-3 2.9 0 .8.3 1.3.6 1.7"/></svg>
+      </a></li>
+    </ul>
+
+    <div class="footer-meta">
+      <p>© <span id="year"></span> Laus Latina.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ============ JOIN MODAL ============ -->
+<div class="modal-overlay" id="joinModal" aria-hidden="true">
+  <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="joinModalTitle">
+    <button type="button" class="modal-close" id="joinModalClose" aria-label="Cerrar">&times;</button>
+    <div class="modal-media">
+      <img src="assets/popweb-photo.jpg" alt="Si hay talento está en Laus. Fotografía por David Nieto, BFW26." class="modal-media-photo">
+    </div>
+    <div class="modal-body">
+      <span class="modal-watermark modal-watermark-bottom" aria-hidden="true">Laus Latina</span>
+      <div class="modal-body-content">
+        <h3 id="joinModalTitle" class="modal-heading">
+          <img src="assets/popweb-heading.png" alt="Bienvenidos al Archivo. Suscríbete al Newsletter de LAUS LATINA y descubre las voces y perspectivas que están transformando nuestra industria.">
+        </h3>
+        <form id="joinForm" novalidate>
+          <div class="form-field">
+            <label for="joinName">Nombre completo<span class="form-field-required">*</span></label>
+            <input type="text" id="joinName" name="name" autocomplete="name" required>
+          </div>
+          <div class="form-field">
+            <label for="joinEmail">Correo<span class="form-field-required">*</span></label>
+            <input type="email" id="joinEmail" name="email" autocomplete="email" required>
+          </div>
+          <div class="form-field">
+            <label for="joinCity">Ciudad<span class="form-field-required">*</span></label>
+            <input type="text" id="joinCity" name="city" autocomplete="address-level2" required>
+          </div>
+          <div class="form-field">
+            <label for="joinPrefs">Preferencias de contenido</label>
+            <input type="text" id="joinPrefs" name="preferencias" placeholder="¿Qué te gustaría ver en el Archivo?">
+          </div>
+          <label class="form-consent">
+            <input type="checkbox" id="joinConsent" name="consent" required>
+            <span>Autorizo el tratamiento de mis datos personales de acuerdo con la <a href="#" target="_blank" rel="noopener">Política de Privacidad</a> de LAUS LATINA.<span class="form-field-required">*</span></span>
+          </label>
+          <button type="submit" class="btn btn-primary modal-submit">Enviar</button>
+          <p class="form-note" id="joinNote" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
